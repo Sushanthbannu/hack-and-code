@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hack & Code</title>
+    <title>Hack & Code | Cybersecurity Platform</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 </head>
 <body>
 
+<div id="particles-js"></div>
+
 <nav>
-    <h2>Hack & Code</h2>
+    <div class="logo">⚡ Hack & Code</div>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="books.html">Books</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
-<section class="hero">
-    <h1>Welcome to Hack & Code 🚀</h1>
-    <p>Learn Ethical Hacking, Networking & Cybersecurity</p>
-    <button onclick="showAlert()">Start Learning</button>
+<section class="hero" id="home">
+    <h1><span class="typing"></span></h1>
+    <p>Master Ethical Hacking • Networking • Cyber Defense</p>
+    <button onclick="scrollToSection()">Explore Now</button>
 </section>
 
-<footer>
-    <p>© 2026 Hack & Code | Built by Sushanth</p>
-</footer>
+<section class="about" id="about">
+    <h2>Who We Are</h2>
+    <p>
+        Hack & Code is a cybersecurity learning platform designed to help 
+        students master penetration testing, Linux systems, and network security.
+    </p>
+</section>
+
+<section class="courses" id="courses">
+    <h2>Core Domains</h2>
+    <div class="card-container">
+        <div class="card">Ethical Hacking</div>
+        <div class="card">Networking</div>
+        <div class="card">Linux</div>
+        <div class="card">Malware Analysis</div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Join The Cyber Army</h2>
+    <p>Email: hackandcode@email.com</p>
+</section>
 
 <script src="js/script.js"></script>
+
 </body>
 </html>
